@@ -150,7 +150,7 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
           <!-- Image / visual -->
           <div class="relative" data-aos="fade-left" data-aos-delay="200">
             <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-brand-800/30">
-              <img src="/wmremove-transformed.png" alt="Transport bydła - firma Logos" class="w-full h-80 lg:h-96 object-cover" />
+              <img src="/wmremove-transformed.webp" alt="Transport bydła - firma Logos" class="w-full h-80 lg:h-96 object-cover" loading="lazy" decoding="async" width="800" height="384" />
               <div class="absolute inset-0 bg-gradient-to-t from-brand-950/60 via-transparent to-transparent"></div>
               <!-- Floating badge -->
               <div class="absolute bottom-4 left-4 right-4 flex justify-between items-end">

@@ -46,7 +46,7 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
                     Z głębokim szacunkiem podchodzimy do trudu pracy rolnika, dlatego naszą misją jest realne wsparcie lokalnego rolnictwa. Nazywam się <strong class="text-slate-800">Marcin Kiedel</strong> i od ponad 18 lat prowadzę firmę Logos.
                   </p>
                   <p>
-                    Choć sercem naszej działalności są powiaty <strong class="text-slate-800">szczecinecki, świdwiński, wałecki, koszaliński oraz drawski</strong>, z sukcesem budujemy relacje z gospodarstwami w całej Polsce.
+                    Choć działamy głównie w powiatach <strong class="text-slate-800">szczecineckim, świdwińskim, wałeckim, koszalińskim i drawskim</strong>, jesteśmy w pełni otwarci na współpracę z rolnikami na terenie całego kraju.
                   </p>
                   <p>
                     W codziennej pracy stawiamy na solidność, rzetelność i pełną przejrzystość transakcji. Dzięki ugruntowanej współpracy z wiodącymi ubojniami w kraju i za granicą, gwarantujemy naszym dostawcom <strong class="text-slate-800">konkurencyjne warunki cenowe</strong>.
@@ -71,9 +71,10 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
           <div class="relative group" data-aos="fade-left">
               <div class="absolute inset-0 bg-brand-700/10 rounded-2xl transform rotate-3 scale-105 group-hover:rotate-2 transition-transform duration-500"></div>
               <img 
-                src="/about-cows-v2.png" 
+                src="/about-cows-v2.webp" 
                 alt="Transport bydła - krowy na pastwisku" 
                 class="relative rounded-2xl shadow-2xl border border-slate-200 w-full object-cover h-[500px]"
+                loading="lazy" decoding="async" width="800" height="500"
               />
               <div class="absolute top-6 right-6 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-xl shadow-lg border border-white/50 z-20">
                 <span class="block text-brand-800 font-black text-lg tracking-tight uppercase">Transport Bydła</span>
@@ -134,7 +135,7 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
               <Banknote class="w-7 h-7" />
             </div>
             <h3 class="text-xl font-bold text-slate-900 mb-3">Gotówka od ręki</h3>
-            <p class="text-slate-600 leading-relaxed">Płacimy natychmiast po załadunku. Gotówka do ręki lub przelew w ciągu tego samego dnia — do wyboru.</p>
+            <p class="text-slate-600 leading-relaxed">Płacimy natychmiast po załadunku. Gotówka do ręki lub przelew nawet tego samego dnia.</p>
           </div>
         </div>
       </div>
@@ -149,9 +150,10 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
           <div class="relative order-last lg:order-first" data-aos="fade-right">
             <div class="rounded-2xl overflow-hidden shadow-xl border border-slate-100">
               <img 
-                src="/wmremove-transformed.png" 
+                src="/wmremove-transformed.webp" 
                 alt="Bydło na pastwisku" 
                 class="w-full h-80 lg:h-[420px] object-cover"
+                loading="lazy" decoding="async" width="800" height="420"
               />
             </div>
             <!-- Floating badge -->

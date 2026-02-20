@@ -7,7 +7,7 @@ import { Phone, Truck, Scale, BadgeCheck } from 'lucide-vue-next';
     
     <!-- Image half (right side on desktop, top on mobile) -->
     <div class="order-first lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 h-80 sm:h-96 lg:h-full w-full bg-slate-50 relative z-0">
-       <img class="absolute inset-0 w-full h-full object-cover" src="/wmremove-transformed.png" alt="Skup bydła i transport zwierząt Szczecinek - Bydło-Trans">
+       <img class="absolute inset-0 w-full h-full object-cover" src="/wmremove-transformed.webp" alt="Skup bydła i transport zwierząt Szczecinek - Bydło-Trans" fetchpriority="high" decoding="async" width="1200" height="800">
        
        <!-- Blur edge between image and content on desktop -->
        <div class="hidden lg:block absolute inset-y-0 left-0 w-40 -translate-x-1/2 z-10 backdrop-blur-2xl [mask-image:linear-gradient(to_right,transparent,black,transparent)] pointer-events-none"></div>

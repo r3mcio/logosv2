@@ -52,7 +52,7 @@ const toggleFaq = (index) => {
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           <div class="h-52 bg-slate-200 relative overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki">
+            <img src="https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki" loading="lazy" decoding="async" width="600" height="208">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
               <h3 class="text-white text-xl font-black">Buhaje / Byki</h3>
@@ -82,7 +82,7 @@ const toggleFaq = (index) => {
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           <div class="h-52 bg-slate-200 relative overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1527153907836-be7122cd0e84?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Jałówki">
+             <img src="/jalowka.webp" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Jałówki" loading="lazy" decoding="async" width="600" height="208">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
               <h3 class="text-white text-xl font-black">Jałówki</h3>
@@ -112,7 +112,7 @@ const toggleFaq = (index) => {
         <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
           <div class="h-52 bg-slate-200 relative overflow-hidden">
-             <img src="https://images.unsplash.com/photo-1546445317-29f4545e9d53?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy">
+             <img src="https://images.unsplash.com/photo-1546445317-29f4545e9d53?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy" loading="lazy" decoding="async" width="600" height="208">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
               <h3 class="text-white text-xl font-black">Krowy</h3>
@@ -164,34 +164,71 @@ const toggleFaq = (index) => {
           <p class="text-slate-600 text-lg max-w-2xl mx-auto">Oferujemy bydło hodowlane najwyższej jakości z gwarancją zdrowia.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center hover:shadow-lg hover:border-brand-200 transition-all duration-300 transform hover:-translate-y-1 group">
-                <div class="w-12 h-12 mx-auto mb-4 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 group-hover:scale-110 transition-transform">
-                  <Beef class="w-6 h-6" />
+
+            <!-- Cielaki -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div class="h-48 bg-slate-200 relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1546445317-29f4545e9d53?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Cielaki" loading="lazy" decoding="async" width="600" height="192">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
+                  <h3 class="text-white text-lg font-black">Cielaki</h3>
+                  <span class="text-xs font-bold bg-brand-500 text-white px-2.5 py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
-                <h3 class="font-bold text-slate-900 text-lg mb-1">Cielaki</h3>
-                <p class="text-slate-500 text-sm">Rasy mięsne i mleczne</p>
+              </div>
+              <div class="p-5">
+                <p class="text-slate-600 text-sm font-medium">Rasy mięsne i mleczne. Zdrowe, dobrze odchowane sztuki gotowe do dalszego tuczu.</p>
+              </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center hover:shadow-lg hover:border-brand-200 transition-all duration-300 transform hover:-translate-y-1 group">
-                <div class="w-12 h-12 mx-auto mb-4 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 group-hover:scale-110 transition-transform">
-                  <Beef class="w-6 h-6" />
+
+            <!-- Odsadki -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div class="h-48 bg-slate-200 relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1596733430284-f7437764b1a9?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Odsadki" loading="lazy" decoding="async" width="600" height="192">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
+                  <h3 class="text-white text-lg font-black">Odsadki</h3>
+                  <span class="text-xs font-bold bg-brand-500 text-white px-2.5 py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
-                <h3 class="font-bold text-slate-900 text-lg mb-1">Odsadki</h3>
-                <p class="text-slate-500 text-sm">Zdrowe i odchowane</p>
+              </div>
+              <div class="p-5">
+                <p class="text-slate-600 text-sm font-medium">Zdrowe i odchowane odsadki. Idealne do dalszego chowu w Twoim gospodarstwie.</p>
+              </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center hover:shadow-lg hover:border-brand-200 transition-all duration-300 transform hover:-translate-y-1 group">
-                <div class="w-12 h-12 mx-auto mb-4 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 group-hover:scale-110 transition-transform">
-                  <Beef class="w-6 h-6" />
+
+            <!-- Krowy i Jałówki -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div class="h-48 bg-slate-200 relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy i Jałówki" loading="lazy" decoding="async" width="600" height="192">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
+                  <h3 class="text-white text-lg font-black">Krowy i Jałówki</h3>
+                  <span class="text-xs font-bold bg-brand-500 text-white px-2.5 py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
-                <h3 class="font-bold text-slate-900 text-lg mb-1">Krowy i Jałówki</h3>
-                <p class="text-slate-500 text-sm">Cielne, do dalszego chowu</p>
+              </div>
+              <div class="p-5">
+                <p class="text-slate-600 text-sm font-medium">Cielne krowy i jałówki do dalszego chowu. Gwarancja zdrowia i dobrej kondycji.</p>
+              </div>
             </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100 text-center hover:shadow-lg hover:border-brand-200 transition-all duration-300 transform hover:-translate-y-1 group">
-                <div class="w-12 h-12 mx-auto mb-4 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 group-hover:scale-110 transition-transform">
-                  <Beef class="w-6 h-6" />
+
+            <!-- Byki -->
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
+              <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+              <div class="h-48 bg-slate-200 relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1545468800-85cc9bc6ecf7?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki rozpłodniki" loading="lazy" decoding="async" width="600" height="192">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
+                  <h3 class="text-white text-lg font-black">Byki</h3>
+                  <span class="text-xs font-bold bg-brand-500 text-white px-2.5 py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
-                <h3 class="font-bold text-slate-900 text-lg mb-1">Byki</h3>
-                <p class="text-slate-500 text-sm">Rozpłodniki</p>
+              </div>
+              <div class="p-5">
+                <p class="text-slate-600 text-sm font-medium">Rozpłodniki najwyższej jakości. Mocne, zdrowe byki do rozrodu w Twoim stadzie.</p>
+              </div>
             </div>
+
         </div>
       </div>
 
@@ -212,7 +249,7 @@ const toggleFaq = (index) => {
           <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
             <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             <div class="h-56 bg-slate-200 relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1588347818036-558601350947?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Wołowina Premium">
+              <img src="https://images.unsplash.com/photo-1588347818036-558601350947?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Wołowina Premium" loading="lazy" decoding="async" width="600" height="224">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
               <div class="absolute top-3 right-3">
                 <span class="text-[10px] font-bold bg-brand-500 text-white px-2.5 py-1 rounded-full shadow-lg">PREMIUM</span>
@@ -235,7 +272,7 @@ const toggleFaq = (index) => {
           <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
             <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             <div class="h-56 bg-slate-200 relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Mięso Mielone">
+              <img src="https://images.unsplash.com/photo-1602470520998-f4a52199a3d6?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Mięso Mielone" loading="lazy" decoding="async" width="600" height="224">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
               <div class="absolute bottom-0 left-0 w-full p-4">
                 <h3 class="text-white text-lg font-black">Mięso Mielone</h3>
@@ -254,7 +291,7 @@ const toggleFaq = (index) => {
           <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
             <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             <div class="h-56 bg-slate-200 relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Steki Wołowe">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Steki Wołowe" loading="lazy" decoding="async" width="600" height="224">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
               <div class="absolute top-3 right-3">
                 <span class="text-[10px] font-bold bg-brand-600 text-white px-2.5 py-1 rounded-full shadow-lg">BESTSELLER</span>
@@ -277,7 +314,7 @@ const toggleFaq = (index) => {
           <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-slate-100 group relative">
             <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             <div class="h-56 bg-slate-200 relative overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?q=80&w=800&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Kiełbasy i Wędliny">
+              <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?q=75&w=600&fm=webp&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Kiełbasy i Wędliny" loading="lazy" decoding="async" width="600" height="224">
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
               <div class="absolute bottom-0 left-0 w-full p-4">
                 <h3 class="text-white text-lg font-black">Kiełbasy & Wędliny</h3>

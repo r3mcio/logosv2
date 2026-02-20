@@ -26,7 +26,7 @@ const navigation = [
           <!-- LEFT: Logo & Location -->
           <div class="flex flex-col items-center lg:items-start gap-2 text-center lg:text-left">
             <RouterLink to="/" class="flex items-center gap-2 group">
-              <img src="/logobeztla.png" alt="Logos" class="h-12 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity" />
+              <img src="/logobeztla.webp" alt="Logos" class="h-12 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity" width="200" height="48" />
             </RouterLink>
             <p class="text-xs text-brand-200/60 mt-2 leading-relaxed">
               Bydło-Trans Marcin Kiedel<br />

@@ -19,7 +19,7 @@ const navigation = [
       <div class="flex justify-between h-20 items-center">
         <div class="flex items-center -ml-4 lg:-ml-6" data-aos="fade-down">
           <RouterLink to="/">
-             <img src="/logobeztla.png" alt="Logos" class="h-12 md:h-14 w-auto object-contain" />
+             <img src="/logobeztla.webp" alt="Logos" class="h-12 md:h-14 w-auto object-contain" width="200" height="56" />
           </RouterLink>
         </div>
         
